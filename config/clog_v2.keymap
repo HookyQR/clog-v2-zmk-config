@@ -79,7 +79,7 @@
                             &kp W      &kp E       &kp R        &kp T            &kp Y     &kp U       &kp I         &kp O
           &kp Q &mt LSHFT A &mt RALT S &mt LCTRL D &mt LGUI F   &kp G            &kp H     &mt RGUI J  &mt RCTRL K   &mt RALT L     &mt RSHFT P &kp SEMI
                 &kp Z       &kp X      &lt FN C    &lt SYM V    &kp B            &kp N     &lt SYM M   &lt FN COMMA  &kp DOT        &kp PIPE
-                                    &kp C_MUTE  &lt ENTER  &lt NAV SPC           &skq RSHFT &kp BSPC   &none
+                                    &kp C_MUTE  &lt ENTER  &lt NAV SPC           &skq RSHFT &kp BSPC   &kp C_MUTE
             >;
 
 			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
