@@ -87,52 +87,59 @@
             layers = <0>;
         };
 
-        combo_grave {
-            timeout-ms = <30>;
-            key-positions = <6 7>;
-            bindings = <&kp GRAVE>;
-            layers = <0>;
-        };
-
-        combo_okey {
+        combo_o1 {
             timeout-ms = <30>;
             key-positions = <2 3>;
-            bindings = <&kp ASTRK>;
+            bindings = <&kp LS(N8)>; // (
             layers = <0>;
         };
 
-        combo_obra {
+        combo_o2 {
             timeout-ms = <30>;
             key-positions = <12 13>;
-            bindings = <&kp LC(RA(LBRC))>;
+            bindings = <&kp LC(RA(LS(LBRC))))>;  // [
             layers = <0>;
         };
 
-        combo_omi {
+        combo_o3 {
             timeout-ms = <30>;
             key-positions = <23 24>;
-            bindings = <&kp GRAVE>;
+            bindings = <&kp LC(RA(LS(SQT)))>; // {
             layers = <0>;
         };
 
-        combo_ckey {
+        combo_o4 {
+            timeout-ms = <30>;
+            key-positions = <23 24>;
+            bindings = <&kp NUBS>; // <
+            layers = <0>;
+        };
+
+        combo_c1 {
             timeout-ms = <30>;
             key-positions = <4 5>;
-            bindings = <&kp LPAR>;
+            bindings = <&kp LS(N9)>;  // )
             layers = <0>;
         };
 
-        combo_cbra {
+        combo_c2 {
             timeout-ms = <30>;
             key-positions = <14 15>;
-            bindings = <&kp GRAVE>;
+            bindings = <&kp LC(RA(LS(RBRC)))>; // ]
             layers = <0>;
         };
 
-        combo_cma {
+        combo_c3 {
             timeout-ms = <30>;
             key-positions = <25 26>;
-            bindings = <&kp GRAVE>;
+            bindings = <&kp LC(RA(BSLH))>; // }
+            layers = <0>;
+        };
+
+        combo_c4 {
+            timeout-ms = <30>;
+            key-positions = <25 26>;
+            bindings = <&kp LS(NUBS)>; // >
             layers = <0>;
         };
     };
