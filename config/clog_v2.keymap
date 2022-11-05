@@ -7,14 +7,6 @@
 #define NAV 2
 #define FN 3
 
-#define ES_GRV  LS(LBRC)    // `
-#define ES_PLUS LS(RBRC)    // +
-#define ES_ACUT LS(SQT)     // ´
-
-#define ES_LBRC LC(RA(ES_GRV))  // [
-#define ES_RBRC LC(RA(ES_PLUS)) // ]
-#define ES_LCBR LC(RA(ES_ACUT)) // {
-
 &mt {
     flavor = "tap-preferred";
     tapping_term_ms = <250>;
@@ -105,14 +97,14 @@
         combo_o2 {
             timeout-ms = <30>;
             key-positions = <12 13>;
-            bindings = <&kp ES_LBRC>;  // [
+            bindings = <&kp LC(RA(LBKT))>;  // [
             layers = <0>;
         };
 
         combo_o3 {
             timeout-ms = <30>;
             key-positions = <23 24>;
-            bindings = <&kp ES_LCBR>; // {
+            bindings = <&kp LS(SQT)>; // {
             layers = <0>;
         };
 
@@ -133,7 +125,7 @@
         combo_c2 {
             timeout-ms = <30>;
             key-positions = <14 15>;
-            bindings = <&kp ES_RBRC>; // ]
+            bindings = <&kp LC(RA(RBKT))>; // ]
             layers = <0>;
         };
 
