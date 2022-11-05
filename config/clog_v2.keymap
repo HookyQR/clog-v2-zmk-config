@@ -104,7 +104,7 @@
         combo_o3 {
             timeout-ms = <30>;
             key-positions = <23 24>;
-            bindings = <&kp LS(SQT)>; // {
+            bindings = <&kp LC(RA(SQT))>; // {
             layers = <0>;
         };
 
