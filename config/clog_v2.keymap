@@ -110,7 +110,7 @@
 
         combo_o4 {
             timeout-ms = <30>;
-            key-positions = <23 24>;
+            key-positions = <11 12>;
             bindings = <&kp NUBS>; // <
             layers = <0>;
         };
@@ -138,7 +138,7 @@
 
         combo_c4 {
             timeout-ms = <30>;
-            key-positions = <25 26>;
+            key-positions = <15 16>;
             bindings = <&kp LS(NUBS)>; // >
             layers = <0>;
         };
