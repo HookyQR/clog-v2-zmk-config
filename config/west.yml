@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: stephen
-      url-base: https://github.com/stephen
+    - name: genkobar
+      url-base: https://github.com/genkobar
   projects:
     - name: zmk
-      remote: stephen
+      remote: genkobar
       revision: split-encoder
       import: app/west.yml
   self:
