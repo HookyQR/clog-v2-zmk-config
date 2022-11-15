@@ -90,20 +90,6 @@
             layers = <0>;
         };
 
-        combo_next_tab {
-            timeout-ms = <30>;
-            key-positions = <0 3>;
-            bindings = <&kp LC(TAB)>;
-            layers = <0>;
-        };
-
-        combo_prev_tab {
-            timeout-ms = <30>;
-            key-positions = <0 2>;
-            bindings = <&kp LS(LC(TAB))>;
-            layers = <0>;
-        };
-
         combo_o1 {
             timeout-ms = <30>;
             key-positions = <2 3>;
@@ -213,10 +199,10 @@
 
         NAV_layer {
             bindings = <
-                                  &kp PG_DN &kp UP       &kp PG_UP    &kp C_PP             &kp LG(P) &kp LG(D)     &kp LS(LG(D)) &kp LG(Q)
-            &kp C_PREV &kp C_NEXT &kp LEFT  &kp DOWN     &kp RIGHT    &kp LC(TAB)          &kp LG(L) &kp RGUI      &kp RCTRL     &kp RALT  &none &kp DEL
-                       &kp HOME   &kp END   &kp C_VOL_DN &kp C_VOL_UP &kp LS(LC(TAB))      &none     &kp LG(ENTER) &kp LG(O)     &kp LG(N) &none
-                                            &trans       &none        &none                &trans    &kp DEL       &trans
+                                  &kp PG_DN &kp UP       &kp PG_UP    &kp C_PP             &kp LG(P)  &kp LG(D)    &kp LG(E)    &none
+            &kp C_PREV &kp C_NEXT &kp LEFT  &kp DOWN     &kp RIGHT    &kp LC(TAB)          &kp LG(L)  &kp RGUI     &kp RCTRL    &kp RALT    &none &kp DEL
+                       &kp HOME   &kp END   &kp C_VOL_DN &kp C_VOL_UP &kp LS(LC(TAB))      &kp K_REDO &kp K_COPY   &kp K_PASTE  &kp K_CUT   &kp K_UNDO
+                                            &trans       &none        &none                &trans     &kp DEL      &trans
             >;
 
 			sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp PG_DN PG_UP>;
