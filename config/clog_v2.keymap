@@ -114,7 +114,7 @@
         combo_o4 {
             timeout-ms = <30>;
             key-positions = <11 12>;
-            bindings = <&kp NUBS>; // <
+            bindings = <&kp NUBS>; // menor que
             layers = <0>;
         };
 
