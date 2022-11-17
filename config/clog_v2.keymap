@@ -114,7 +114,7 @@
         combo_o4 {
             timeout-ms = <30>;
             key-positions = <11 12>;
-            bindings = <&kp NUBS>; // <
+            bindings = <&kp NON_US_BSLH>; // <
             layers = <0>;
         };
 
@@ -142,7 +142,7 @@
         combo_c4 {
             timeout-ms = <30>;
             key-positions = <15 16>;
-            bindings = <&kp LS(NUBS)>; // >
+            bindings = <&kp LS(NON_US_BSLH)>; // >
             layers = <0>;
         };
     };
